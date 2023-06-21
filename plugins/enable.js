@@ -4,7 +4,7 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
 	
 const sections = [
    {
-	title: `💝 Queen Hentai 💝`,
+	title: `⃝❤️ ᴅͯ͜ᴀͯʀᴋᴇ͠ɴ ᴘᴀ͡ꜱɪʏᴀ͢🖤⃠`,
 	rows: [
 	{title: "🇱🇰 | Welcome", rowId: `${usedPrefix + command} welcome`},
 	{title: "🇱🇰 | Public", rowId: `${usedPrefix + command} public`},
@@ -25,9 +25,9 @@ const sections = [
 ]
 
 const listMessage = {
-  text: '\nThis is the list of 💝 Queen Hentai 💝 Now you can turn on and off it',
+  text: '\nThis is the list of ⃝❤️ ᴅͯ͜ᴀͯʀᴋᴇ͠ɴ ᴘᴀ͡ꜱɪʏᴀ͢🖤⃠ Now you can turn on and off it',
   footer: igfg,
-  title: `💝 Queen Hentai 💝`,
+  title: `⃝❤️ ᴅͯ͜ᴀͯʀᴋᴇ͠ɴ ᴘᴀ͡ꜱɪʏᴀ͢🖤⃠`,
   buttonText: "💝 Click here 💝",
   sections
 }
@@ -211,7 +211,7 @@ const listMessage = {
 */
 
 m.reply(`
-😁 *${type}* ££££ *${isEnable ? '*INSTALL*' : '*UNINSTALL*'}* ${isAll ? 'for *💝 Queen Hentai 💝* bot' : isUser ? '' : 'for *💝 Queen Hentai 💝* bot'}
+😁 *${type}* ££££ *${isEnable ? '*INSTALL*' : '*UNINSTALL*'}* ${isAll ? 'for *⃝❤️ ᴅͯ͜ᴀͯʀᴋᴇ͠ɴ ᴘᴀ͡ꜱɪʏᴀ͢🖤⃠* bot' : isUser ? '' : 'for *⃝❤️ ᴅͯ͜ᴀͯʀᴋᴇ͠ɴ ᴘᴀ͡ꜱɪʏᴀ͢🖤⃠* bot'}
 `.trim()) 
 
 }
