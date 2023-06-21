@@ -1,9 +1,9 @@
 import axios from "axios"
 import fetch from 'node-fetch'
 let handler = async (m, {command, usedPrefix, conn}) => {
-if (!global.db.data.chats[m.chat].nsfw) throw `💝 Queen Hentai 💝 group doesnt supprt nsfw \n\n enable it by \n*${usedPrefix}enable* nsfw 💝 Queen Hentai 💝 join nsfw group https://chat.whatsapp.com/Jyjqx7KBfgjDC7QcefHB1S`
+if (!global.db.data.chats[m.chat].nsfw) throw `⃝❤️ ᴅͯ͜ᴀͯʀᴋᴇ͠ɴ ᴘᴀ͡ꜱɪʏᴀ͢🖤⃠ doesnt supprt nsfw \n\n enable it by \n*${usedPrefix}enable* nsfw ⃝❤️ ᴅͯ͜ᴀͯʀᴋᴇ͠ɴ ᴘᴀ͡ꜱɪʏᴀ͢🖤⃠`
     let user = global.db.data.users[m.sender].age
-    if (user < 17) throw m.reply(`❎ uneed to be atleast 18 years`)
+    if (user < 17) throw m.reply(`❎ you need to be atleast 18 years`)
 
 if (command == 'hloli') {
 let res = (await axios.get(`https://raw.githubusercontent.com/Guru322/api/Guru/BOT-JSON/nsfwloli.json`)).data  
