@@ -2,7 +2,7 @@
 import yts from 'yt-search'
 
 let handler = async (m, {conn, text }) => {
-  if (!text) throw '🇱🇰 Bza What do you want to search for on YT from Queen Hentai?'
+  if (!text) throw '🇱🇰 Boza What do you want to search for on YT from ⃝❤️ ᴅͯ͜ᴀͯʀᴋᴇ͠ɴ ᴘᴀ͡ꜱɪʏᴀ͢🖤⃠?'
   let results = await yts(text)
   let tes = results.all
   let teks = results.all.map(v => {
@@ -26,6 +26,6 @@ let handler = async (m, {conn, text }) => {
 }
 handler.help = ['ytsearch'] 
 handler.tags = ['dl']
-handler.command = ['ytsearch', 'yts'] 
+handler.command = ['ytsearch', 'yts', 'yt'] 
 
 export default handler
